@@ -1,0 +1,3 @@
+package itertools
+
+func Count(
