@@ -1,21 +1,28 @@
 go-itertools
 ============
-Golang port of Python's itertools and etc.
+Implemented Python's `itertools` in Golang.
+
+This is just a practice.
 
 
 Python's itertools functions
 ============================
 Implemented:
+ - accumulate
  - chain
+ - chain.from_iterable
+ - consume
+ - cycle
+ - ncycle
+ - nth
+ - repeat
+ - repeatfunc
+ - take
 
 Not implemented:
- - accumulate
- - chain.from_iterable
  - combinations
  - combinations_with_replacement
  - compress
- - consume
- - cycle
  - dotproduct
  - dropWhile
  - filterFalse
@@ -23,8 +30,6 @@ Not implemented:
  - group_by
  - grouper
  - iter_except
- - ncycle
- - nth
  - padnone
  - pairwise
  - partition
@@ -33,13 +38,10 @@ Not implemented:
  - product
  - quantify
  - random_product
- - repeat
- - repeatfunc
  - roundrobin
  - slice
  - startmap
  - tabulate
- - take
  - takeWhile
  - tee
  - unique_ever_seen
